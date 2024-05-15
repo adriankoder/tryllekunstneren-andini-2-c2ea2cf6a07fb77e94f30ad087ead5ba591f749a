@@ -34,7 +34,7 @@ if (tryllingKnapp) {
             //KontaktIfo2.style.display = "none"
             Ballonggjøgling.style.display="none";
             iframe.style.opacity = 0
-            // pElement.style.display ="none"
+            pElement.style.display ="none"
             Trylleshow.style.display="block";
             
             // header.style.display = "none"

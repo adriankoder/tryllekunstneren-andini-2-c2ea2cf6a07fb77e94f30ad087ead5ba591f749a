@@ -30,7 +30,7 @@ if(sukkerspinnKnapp){
         andini_med_kaninid.style.display ="none"
         iframe.style.opacity = 0
         telefon.style.display ="none"
-        // pElement.style.display ="none"
+        pElement.style.display ="none"
         SukkerspinnmaskinH2.style.display = "none"
         SukkerspinnmaskinIDp.style.display = "block"
         Sukkerspinnmaskin.style.display = "block"

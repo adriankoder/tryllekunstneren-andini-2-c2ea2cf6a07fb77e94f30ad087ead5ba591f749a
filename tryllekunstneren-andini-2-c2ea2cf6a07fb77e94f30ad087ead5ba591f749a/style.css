@@ -1,14 +1,20 @@
+*{box-sizing: border-box;}
 body {
-    background-color: black;
-    border-radius: 10px;
+    margin: 0;
 }
 .sun{
         background-color: white;
         color: black;
-        border-radius: 10px;
-        margin: 0%;
-        width: 32px;
-        height: 32px;
+        
+    }
+.moon{
+    background-color: black;
+    color: white;
+    text-shadow: blue 9px 2px;
+}
+.iconzize{
+    width: 50px;
+    height: 50px;
 }
 .andini_med_kaninid {
     /* display: flex;
@@ -21,8 +27,7 @@ button{
     color: white;
     background-color: blue;
 }
-p { color: white;
-    text-shadow: blue 9px 2px;
+p { 
     font-size: 20px;
     inline-size: 90%;   
     display: flex;
@@ -32,18 +37,21 @@ p { color: white;
 inline-size: 80%;}
 
 .Bor_du_i_Bergen{
-    color: white;
-    text-shadow: blue 9px 2px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
 }
-
+.andini_tryllekunstneren{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .TryllingClass{
-    color: white;
-    text-shadow: blue 9px 2px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,16 +68,14 @@ inline-size: 80%;}
 }
 
 .hvor_lenge_har_holt_po {
-    color: white;
-    text-shadow: blue 9px 2px;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 h1, h1 {
-    color: white;
-    text-shadow: blue 9px 2px;
+ 
     font-family: monospace;
 }
 
@@ -94,14 +100,6 @@ h1, h1 {
     width: auto;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-evenly;
-    /* margin-right: 50px;
-    margin-top: -450px; */
-}
 
 /* .KontaktConteiner{
 position: fixed;
@@ -110,8 +108,7 @@ top: 10px;
 
 .TrylleshowID
 
-{color: white;
-text-shadow: blue 9px 2px;
+{
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -146,16 +143,22 @@ h2
     margin-top: 0px;
 
 }
-
-/* .section_Hedder{
+.Bor_du_i_Bergen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .section_Hedder{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: end;
-} */
+    justify-content: space-evenly;
+   align-items: center;
+    padding: 8px;
+}
 .Ballonggjøglingh2{
-    color: white;
-    text-shadow: blue 9px 2px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,8 +172,7 @@ border-radius: 50%;
 
 }
 .Ballonggjøgling{
-    color: white;
-text-shadow: blue 9px 2px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;

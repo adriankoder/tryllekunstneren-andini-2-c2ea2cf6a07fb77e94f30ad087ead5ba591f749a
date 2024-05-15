@@ -19,11 +19,12 @@ const Ballonggjøglingh2 = document.getElementById("Ballonggjøglingh2");
 const Sukkerspinnmaskinp = document.getElementById("SukkerspinnmaskinIDp");
 const footer = document.getElementById("føler_meg_privilegertP");
 const ballonggjimgid = document.getElementById("ballonggjimgid"); // Riktig ID her
-
+const pElement = document.getElementById("pElement")
 
 
 // Setter display-stil på de ulike elementene
 andini_med_kaninid.style.display = "block";
+pElement.style.display = "none"
 KontaktIfo2.style.display = "none";
 KontaktConteiner.style.display = "none"; // Sjekk om dette er korrekt ID
 telefon.style.display = "none";

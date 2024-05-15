@@ -14,7 +14,7 @@ const TryllingID = document.getElementById("TryllingID")
 const ballonggjimgid = document.getElementById("ballonggjimgid")
 const Ballonggjøglingh2 = document.getElementById("Ballonggjøglingh2")
 const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
-
+const pElement = document.getElementById("pElement")
 
 if (hovedsideKnapp) {
     hovedsideKnapp.addEventListener("click", function() {
@@ -26,6 +26,7 @@ if (hovedsideKnapp) {
         hvor_lenge_har_holt_poID.style.display = "block"
         føler_meg_privilegertP.style.display = "block"
         TrylleshowID.style.display = "none";
+        pElement,this.style.display = "none"
         SukkerspinnmaskinIDp.style.display = "none"
         Sukkerspinnmaskin.style.display = "none"
         Ballonggjøglingh2.style.display = "none"
